@@ -22,3 +22,6 @@ boton3.addEventListener("click", function(){
     contador3++;
     boton3.textContent = contador3 + "like(s)" + "like"; 
 })
+
+
+/**/
