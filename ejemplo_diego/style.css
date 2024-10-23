@@ -1,0 +1,107 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainDiv1{
+    background-color: #333333;
+    flex: 1;
+    text-align: center;
+    color: #fffff8;
+}
+
+.mainDiv2{
+    background-color: white;
+    flex: 1;
+    text-align: start;
+    margin-left: 19.26rem;
+    color: #231401;
+}
+
+///////////////////////////////////////////////////////
+
+main{
+    background-color: white;
+    display: flex;
+}
+
+.div1{
+    display: flex;
+    background-color: white;
+    width: 13rem;
+    height: 15.6rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: solid 0.2rem black;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.logo-user{
+    display: flex;
+    border-radius: 50%;
+    border: solid 0.1rem black;
+    background-color: white;
+    width: 7rem;
+    height: 7rem;
+    font-size: 5rem;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+i{
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.3rem;
+}
+
+.div2{
+    display: flex;
+    background-color: white;
+    flex: 3;
+    height: 30rem;
+    flex-direction: column;
+}
+
+.div2a{
+    background-color: white;
+    flex: 1;
+    margin: 2rem;
+    border: solid 0.2rem black;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.div2b{
+    background-color: white;
+    flex: 1;
+    margin: 2rem;
+    border: solid 0.2rem black;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.div2c{
+    background-color: white;
+    flex: 1;
+    margin: 2rem;
+    border: solid 0.2rem black;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.div-btn{
+    display: flex;
+
+    width: 5rem;
+    justify-content: end;
+    position: absolute;
+    right: 4rem;
+    top: 3rem;
+}
